@@ -9,7 +9,7 @@ spec:
         sizeLimit: 5Mi
   initContainers:
     - name: vault
-      image: -t 976739212096.dkr.ecr.us-east-1.amazonaws.com/vault-init-container:v2
+      image: 976739212096.dkr.ecr.us-east-1.amazonaws.com/vault-init-container:v2
       env:
         - name: VAULT_ADDR
           value: "https://vault-internal.poornachandra3.online:8200"
